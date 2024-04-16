@@ -1,1 +1,34 @@
 
+﻿<html>
+<head>
+
+
+</head>
+<body>
+	<h1>Mon formulaire</h1>
+
+<form action="#">
+<p>les champs avec <abbr>*</abbr> sontobligatoires</p>
+<fieldset>
+<legend>Nouveau dresseur</legend>
+<p>Nom : <input name="name" type="Text" required /></p>
+<p>Déscription : <input name="description" type="Text" /></p>
+<p>Equipe
+<p>Rouge <input name="R" type="radio" value="Rouge"/> 
+Jaune<input name="J" type="radio" value="Jaune"/>
+Bleu<input name="B" type="radio" value="Bleu"/>
+</p>
+</p>
+
+<p>Anniversaire <input name="birthday" type="date" name="birthday" required/></p>
+
+
+<p><input type="submit" value="Envoyer" />
+
+</p>
+
+</fieldset>
+</form>
+
+</body>
+</html>
